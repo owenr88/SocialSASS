@@ -1,0 +1,31 @@
+
+/* 
+ * Variables
+ */
+
+$base-colour: #CBCBCB;
+$text-colour: #FFFFFF;
+$round-icon-size: 50px;
+
+
+/* 
+ * Core Files
+ */
+
+
+// Social Networks Included in this project
+@import "core/mixins.scss";
+
+// Social Networks Included in this project
+@import "core/social-networks.scss";
+
+
+/* 
+ * Styles
+ */
+
+// Round icons with the correct social network colour background
+@import "icons/round-icons.scss";
+
+// Round icons with a colour applied to the background when hovered over
+@import "icons/round-icons-hover.scss";

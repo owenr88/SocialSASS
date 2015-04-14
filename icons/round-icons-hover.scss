@@ -1,0 +1,18 @@
+
+i.fa.rounded-hover {
+    background-color: $base-colour;
+    color: $text-colour;
+    width: $round-icon-size;
+    height: $round-icon-size;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: $round-icon-size;
+    text-align: center;
+    padding: 15px;
+    @include transition(background-color, 0.3s);
+
+    @each $sn in $social-networks {
+        &.fa-#{nth($sn, 1)}:hover { background-color: #{nth($sn, 2)} }
+    }
+}
