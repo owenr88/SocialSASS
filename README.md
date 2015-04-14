@@ -1,11 +1,15 @@
 # SocialSASS
-Social colours in SASS variables and bootstrap icons with varying styles.
+This is a collection of SASS styles to pimp out your social icons. The correct colours are included with each social icon (list available in "core/social-networks.scss").
+
+The styles also offer a variety of ways to display the icons. See the examples below for these classes.
 
 ##Usage
 
 View the social-networks.scss file for list fo social networks supported.
 
-Include the social-sass.scss in your project and use the Font-Awesome classes as below.
+Include the social-sass.scss in your project and use the FontAwesome classes as below.
+
+##Icon Examples
 
 ###Basic Rounded Icon
 `<i class="fa rounded fa-twitter"></i>`
