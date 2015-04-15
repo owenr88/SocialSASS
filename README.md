@@ -5,22 +5,33 @@ The styles also offer a variety of ways to display the icons. See the examples b
 
 ##Usage
 
-View the social-networks.scss file for list fo social networks supported.
+Include the social-sass.scss in your project and use the add-on Font Awesome classes as om the examples below.
 
-Include the social-sass.scss in your project and use the FontAwesome classes as below.
+`@import "SocialSASS/social-sass.scss"`
+
+[Font Awesome](http://fortawesome.github.io/Font-Awesome/) SASS files are also included, but you can delete them if you've already included them in your project. Don't forget to remove the reference in social-sass.scss too!
+
+View the social-networks.scss file for list fo social networks supported.
 
 ##Icon Examples
 
-###Basic Rounded Icon
+###Default Icon
+`<i class="fa default fa-twitter"></i>`
+
+Standard icons in the social network's color.
+
+###Rounded Icon
 `<i class="fa rounded fa-twitter"></i>`
 
-Circle icon with the correct social color. It gets slightly darker on hover. 
+Round icons with the social network's colour in the background.
 
-###Basic Rounded Icon on Hover Only
+###Rounded Icon on Hover Only
 `<i class="fa rounded-hover fa-twitter"></i>`
 
-Circle icon with a base color that changes when hovered over. The base color can be changed in the social-icons.scss file.
+Round icons with the social network's color applied to the background when hovered over. The base color can be changed in the social-icons.scss file.
 
-##Disclaimer
+##Details
 
-Most of the colours were from the [Design Pieces article](http://designpieces.com/2012/12/social-media-colours-hex-and-rgb)
+Most of the social networks' colours were from the [Design Pieces article](http://designpieces.com/2012/12/social-media-colours-hex-and-rgb). Thanks for saving a load of searching!
+
+Some of the mixins came from [Web Design Weekly](https://github.com/web-design-weekly/sass-mixins).

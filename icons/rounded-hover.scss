@@ -1,0 +1,28 @@
+
+i.fa.rounded-hover {
+    background-color: $base-colour;
+    width: $icon-size * 0.6;
+    height: $icon-size * 0.6;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: $icon-size * 0.6;
+    text-align: center;
+    padding: $icon-size * 0.2;
+    @include transition(background-color, 0.3s);
+    
+    @if $text-colour-override == false {
+        color: getTextColor($base-colour);
+    } @else {
+        color: $text-colour-override;
+    }
+
+    @each $sn in $social-networks {
+        &.fa-#{nth($sn, 1)}:hover { 
+            background-color: #{nth($sn, 2)};
+            @if $text-colour-override == false {
+                color: getTextColor(nth($sn, 2));
+            }
+        }
+    }
+}

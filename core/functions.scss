@@ -1,0 +1,9 @@
+// Get text color depending on background
+@function getTextColor($color) {
+  @if (lightness( $color ) > 50) {
+    @return #000000;
+  }
+  @else {
+    @return #FFFFFF;
+  }
+}

@@ -1,0 +1,11 @@
+
+i.fa.default {
+    font-size: $icon-size;
+    width: $icon-size;
+	height: $icon-size;
+	text-align: center;
+
+    @each $sn in $social-networks {
+        &.fa-#{nth($sn, 1)} { color: #{nth($sn, 2)} }
+    }
+}

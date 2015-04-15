@@ -1,21 +1,30 @@
 
 // Variables
-$base-colour: #CBCBCB;
-$text-colour: #FFFFFF;
-$round-icon-size: 50px;
+$base-colour: #CBCBCB;				// Base background color
+$text-colour-override: false;		// Over-ride the text color. Leave as false to let it decide the color depending on the background.
+$icon-size: 80px;					// Total icon size
 
 
+
+// Get Font Awesome - DELETE THIS IF YOU'VE ALREADY INCLUDED IT IN YOUR PROJECT
+@import "vendors/font-awesome/scss/font-awesome.scss";
 
 // Mixins
 @import "core/mixins.scss";
+
+// Functions
+@import "core/functions.scss";
 
 // Social Networks Included in this project
 @import "core/social-networks.scss";
 
 
 
-// Round icons with the correct social network colour background
-@import "icons/round-icons.scss";
+// Standard icons in the social network's color
+@import "icons/default.scss";
 
-// Round icons with a colour applied to the background when hovered over
-@import "icons/round-icons-hover.scss";
+// Round icons with the social network's colour in the background
+@import "icons/rounded.scss";
+
+// Round icons with the social network's color applied to the background when hovered over
+@import "icons/rounded-hover.scss";
