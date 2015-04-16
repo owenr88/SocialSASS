@@ -40,7 +40,7 @@ Round icons with the social network's colour in the background which does a litt
 
 Round icons with the social network's color applied to the background when hovered over. The base color can be changed in the social-icons.scss file.
 
-###Rounded Icon - Background Color corrects and icon spins on hover
+###Rounded Icon - Background Color on hover - Also spins on hover
 `<i class="fa rounded-hover-spin fa-instagram"></i>`
 
 Round icons with the social network's color applied when hovered over, at the same time as spinning. The base color can be changed in the social-icons.scss file.

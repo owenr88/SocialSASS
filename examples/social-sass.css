@@ -2324,11 +2324,11 @@ i.fa.rounded-hover-spin {
   -moz-border-radius: 50%;
   font-size: 48px;
   padding: 16px;
-  -webkit-transition: transform 0.5s ease-in-out 0;
-  -moz-transition: transform 0.5s ease-in-out 0;
-  -ms-transition: transform 0.5s ease-in-out 0;
-  -o-transition: transform 0.5s ease-in-out 0;
-  transition: transform 0.5s ease-in-out 0;
+  -webkit-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
+  -moz-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
+  -ms-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
+  -o-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
+  transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
   color: #FFFFFF; }
   i.fa.rounded-hover-spin:hover {
     -moz-transform: rotate(360deg);
