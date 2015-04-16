@@ -28,7 +28,7 @@ Standard icons in the social network's color. The icon spins and the color darke
 ###Rounded Icon with Background Color
 `<i class="fa rounded fa-facebook"></i>`
 
-Round icons with the social network's colour in the background.
+Round icons with the social network's color in the background.
 
 ###Rounded Icon with Background Color - Spins on hover
 `<i class="fa rounded-spin fa-youtube"></i>`
