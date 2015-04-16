@@ -1,46 +1,36 @@
-// rotate
+
+// Default Styles
+@mixin getDefaultProps() {
+    text-align: center;
+    display: block;
+    float: left;
+    margin-right: 15px;
+}
+
+// generic transform
+@mixin transform($transforms) {
+     -moz-transform: $transforms;
+       -o-transform: $transforms;
+      -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+          transform: $transforms;
+}
+
+// transition
+@mixin transition($transition-property, $transition-time, $method:ease-in-out, $delay:0, $multiple...) {
+	-webkit-transition: $transition-property $transition-time $method $delay, $multiple;
+	-moz-transition: $transition-property $transition-time $method $delay, $multiple;
+	-ms-transition: $transition-property $transition-time $method $delay, $multiple;
+	-o-transition: $transition-property $transition-time $method $delay, $multiple;
+	transition: $transition-property $transition-time $method $delay, $multiple;
+}
+
+// Rotate
 @mixin rotate ($deg) {
   @include transform(rotate(#{$deg}deg));
 
   filter:  progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($deg)}, M12=-#{sin($deg)}, M21=#{sin($deg)}, M22=#{cos($deg)});
-  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($deg)}, M12=-#{sin($deg)}, M21=#{sin($deg)}, M22=#{cos($deg)})";
   zoom: 1;
  }
  
-// scale
-@mixin scale($scale) {
-   @include transform(scale($scale));
-} 
-
-// skew
-@mixin skew ($x, $y) {
-   @include transform(skew(#{$x}deg, #{$y}deg));
-}
-
-// transition
-@mixin transition($transition-property, $transition-time, $method:ease-in-out, $delay:0) {
-  -webkit-transition: $transition-property $transition-time $method $delay;
-  -moz-transition: $transition-property $transition-time $method $delay;
-  -ms-transition: $transition-property $transition-time $method $delay;
-  -o-transition: $transition-property $transition-time $method $delay;
-  transition: $transition-property $transition-time $method $delay;
-}
-
-// transition delay
-@mixin transition-delay($delay) {
-    -webkit-transition-delay: $delay;
-    transition-delay: $delay;
-}
-
-// Add Box Shadows
-@mixin box-shadow($x:0px, $y:0px, $blur:3px, $spread:3px, $color:#000000) {
-  -moz-box-shadow: $x $y $blur $spread $color;
-  -webkit-box-shadow: $x $y $blur $spread $color;
-  box-shadow: $x $y $blur $spread $color;
-}
-// Remove Box Shadows
-@mixin remove-box-shadow() {
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}

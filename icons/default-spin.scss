@@ -1,10 +1,14 @@
 
-i.fa.default {
+i.fa.default-spin {
     @include getDefaultProps();
     font-size: $icon-size;
     width: $icon-size;
 	height: $icon-size;
-    @include transition(color, 0.2s);
+    @include transition(color, 0.2s, ease-in-out, 0, transform 0.5s);
+
+    &:hover {
+        @include rotate(360);
+    }
 
     @each $sn in $social-networks {
         &.fa-#{nth($sn, 1)} { 

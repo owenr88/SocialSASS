@@ -1,5 +1,5 @@
 
-i.fa.rounded-hover {
+i.fa.rounded-hover-spin {
     @include getDefaultProps();
     background-color: $base-colour;
     width: $icon-size * 0.6;
@@ -9,7 +9,7 @@ i.fa.rounded-hover {
     -moz-border-radius: 50%;
     font-size: $icon-size * 0.6;
     padding: $icon-size * 0.2;
-    @include transition(background-color, 0.2s, ease-in-out, 0, color 0.2s);
+    @include transition(transform, 0.5s);
     
     @if $text-colour-override == false {
         color: getTextColor($base-colour);
@@ -17,12 +17,11 @@ i.fa.rounded-hover {
         color: $text-colour-override;
     }
 
+    &:hover {
+        @include rotate(360);
+    }
+
     @each $sn in $social-networks {
-        &.fa-#{nth($sn, 1)}:hover { 
-            background-color: #{nth($sn, 2)};
-            @if $text-colour-override == false {
-                color: getTextColor(nth($sn, 2));
-            }
-        }
+        &.fa-#{nth($sn, 1)}:hover { background-color: #{nth($sn, 2)} }
     }
 }

@@ -1,5 +1,5 @@
 
-i.fa.rounded {
+i.fa.rounded-spin {
     @include getDefaultProps();
     width: $icon-size * 0.6;
     height: $icon-size * 0.6;
@@ -8,10 +8,14 @@ i.fa.rounded {
     -moz-border-radius: 50%;
     font-size: $icon-size * 0.6;
     padding: $icon-size * 0.2;
-    @include transition(background-color, 0.2s, ease-in-out, 0, color 0.2s);
+    @include transition(background-color, 0.2s, ease-in-out, 0, color 0.2s, transform 0.5s);
 
     @if $text-colour-override != false {
         color: $text-colour-override;
+    }
+
+    &:hover {
+        @include rotate(360);
     }
 
     @each $sn in $social-networks {
