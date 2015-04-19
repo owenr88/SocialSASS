@@ -15,21 +15,30 @@ View the social-networks.scss file for list fo social networks supported.
 
 ##Icon Examples
 
-See the examples/index.html for working examples.
+**See the examples/index.html for working examples.**
 
 Default Icon - `<i class="fa default fa-twitter"></i>`
+
 Default Icon (background applied on hover) - `<i class="fa default-hover fa-linkedin"></i>`
+
 Default Icon (spins on hover) - `<i class="fa default-spin fa-wordpress"></i>`
+
 Default Icon (background applied and spins on hover) - `<i class="fa default-spin-hover fa-pinterest"></i>`
 
 Rounded Icon - `<i class="fa rounded fa-facebook"></i>`
+
 Rounded Icon (background applied on hover) - `<i class="fa rounded-hover fa-vimeo-square"></i>`
+
 Rounded Icon (spins on hover) - `<i class="fa rounded-spin fa-youtube"></i>`
+
 Rounded Icon (background applied and spins on hover) - `<i class="fa rounded-hover-spin fa-instagram"></i>`
 
 Squared Icon - `<i class="fa squared fa-dribbble"></i>`
+
 Squared Icon (background applied on hover) - `<i class="fa squared-hover fa-soundcloud"></i>`
+
 Squared Icon (shifts down on hover) - `<i class="fa squared-shift fa-flickr"></i>`
+
 Squared Icon (background applied and shifts down on hover) - `<i class="fa squared-shift-hover fa-yahoo"></i>`
 
 ##Details
