@@ -8,6 +8,7 @@ $gutter: 15px;						// Margin between icons
 
 
 // Get Font Awesome - DELETE THIS IF YOU'VE ALREADY INCLUDED IT IN YOUR PROJECT
+$fa-font-path: "vendors/font-awesome/fonts";
 @import "vendors/font-awesome/scss/font-awesome";
 
 // Mixins

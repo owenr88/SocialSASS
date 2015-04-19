@@ -7,8 +7,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../vendors/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0");
-  src: url("../vendors/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../vendors/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../vendors/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../vendors/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  src: url("vendors/font-awesome/fonts/fontawesome-webfont.eot?v=4.3.0");
+  src: url("vendors/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("vendors/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("vendors/font-awesome/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("vendors/font-awesome/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("vendors/font-awesome/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -2963,167 +2963,194 @@ i.fa.squared-shift {
   padding: 16px;
   top: 0px;
   position: relative;
-  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s; }
+  z-index: 0;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s; }
   i.fa.squared-shift.fa-digg {
     background-color: #000000;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-digg:hover {
       background-color: black;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-dribbble {
     background-color: #ea4c89;
     color: #000000; }
     i.fa.squared-shift.fa-dribbble:hover {
       background-color: #e51e6b;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-facebook {
     background-color: #3b5998;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-facebook:hover {
       background-color: #2d4373;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-flickr {
     background-color: #ff0084;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-flickr:hover {
       background-color: #cc006a;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-foursquare {
     background-color: #0072b1;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-foursquare:hover {
       background-color: #00517e;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-google-plus {
     background-color: #dd4b39;
     color: #000000; }
     i.fa.squared-shift.fa-google-plus:hover {
       background-color: #c23321;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-instagram {
     background-color: #517fa4;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-instagram:hover {
       background-color: #406582;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-linkedin {
     background-color: #007bb6;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-linkedin:hover {
       background-color: #005983;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-pinterest {
     background-color: #cb2027;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-pinterest:hover {
       background-color: #9f191f;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-reddit {
     background-color: #5f99cf;
     color: #000000; }
     i.fa.squared-shift.fa-reddit:hover {
       background-color: #3a80c1;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-skype {
     background-color: #00aff0;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-skype:hover {
       background-color: #008abd;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-soundcloud {
     background-color: #ff3a00;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-soundcloud:hover {
       background-color: #cc2e00;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-stumbleupon {
     background-color: #eb4924;
     color: #000000; }
     i.fa.squared-shift.fa-stumbleupon:hover {
       background-color: #ca3412;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-tumblr {
     background-color: #32506d;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-tumblr:hover {
       background-color: #22364a;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-twitch {
     background-color: #6441a5;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-twitch:hover {
       background-color: #4e3380;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-twitter {
     background-color: #00aced;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-twitter:hover {
       background-color: #0087ba;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-vimeo-square {
     background-color: #aad450;
     color: #000000; }
     i.fa.squared-shift.fa-vimeo-square:hover {
       background-color: #93c130;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-vine {
     background-color: #00bf8f;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-vine:hover {
       background-color: #008c69;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-vk {
     background-color: #45668e;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-vk:hover {
       background-color: #344d6c;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-wechat {
     background-color: #93d034;
     color: #000000; }
     i.fa.squared-shift.fa-wechat:hover {
       background-color: #77aa27;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-weibo {
     background-color: #E71D34;
     color: #000000; }
     i.fa.squared-shift.fa-weibo:hover {
       background-color: #bd1427;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-whatsapp {
     background-color: #4dc247;
     color: #000000; }
     i.fa.squared-shift.fa-whatsapp:hover {
       background-color: #3ba135;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-wordpress {
     background-color: #21759b;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-wordpress:hover {
       background-color: #185571;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-yahoo {
     background-color: #7B0099;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-yahoo:hover {
       background-color: #520066;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-yelp {
     background-color: #af0606;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-yelp:hover {
       background-color: #7e0404;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
   i.fa.squared-shift.fa-youtube {
     background-color: #bb0000;
     color: #FFFFFF; }
     i.fa.squared-shift.fa-youtube:hover {
       background-color: #880000;
-      top: 10px; }
+      top: 10px;
+      z-index: 300; }
 
 i.fa.squared-shift-hover {
   text-align: center;
@@ -3137,115 +3164,142 @@ i.fa.squared-shift-hover {
   padding: 16px;
   top: 0px;
   position: relative;
-  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
-  transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  z-index: 0;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s, z-index 0.2s;
   color: #FFFFFF; }
   i.fa.squared-shift-hover.fa-digg:hover {
     background-color: #000000;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-dribbble:hover {
     background-color: #ea4c89;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-facebook:hover {
     background-color: #3b5998;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-flickr:hover {
     background-color: #ff0084;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-foursquare:hover {
     background-color: #0072b1;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-google-plus:hover {
     background-color: #dd4b39;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-instagram:hover {
     background-color: #517fa4;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-linkedin:hover {
     background-color: #007bb6;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-pinterest:hover {
     background-color: #cb2027;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-reddit:hover {
     background-color: #5f99cf;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-skype:hover {
     background-color: #00aff0;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-soundcloud:hover {
     background-color: #ff3a00;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-stumbleupon:hover {
     background-color: #eb4924;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-tumblr:hover {
     background-color: #32506d;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-twitch:hover {
     background-color: #6441a5;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-twitter:hover {
     background-color: #00aced;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-vimeo-square:hover {
     background-color: #aad450;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-vine:hover {
     background-color: #00bf8f;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-vk:hover {
     background-color: #45668e;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-wechat:hover {
     background-color: #93d034;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-weibo:hover {
     background-color: #E71D34;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-whatsapp:hover {
     background-color: #4dc247;
     color: #000000;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-wordpress:hover {
     background-color: #21759b;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-yahoo:hover {
     background-color: #7B0099;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-yelp:hover {
     background-color: #af0606;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
   i.fa.squared-shift-hover.fa-youtube:hover {
     background-color: #bb0000;
     color: #FFFFFF;
-    top: 10px; }
+    top: 10px;
+    z-index: 300; }
 
 /*# sourceMappingURL=social-sass.css.map */
