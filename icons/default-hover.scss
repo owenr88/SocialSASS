@@ -1,0 +1,15 @@
+
+i.fa.default-hover {
+    @include getDefaultProps();
+    color: $base-colour;
+    font-size: $icon-size;
+    width: $icon-size;
+	height: $icon-size;
+    @include transition(color, 0.2s);
+
+    @each $sn in $social-networks {
+        &.fa-#{nth($sn, 1)}:hover { 
+        	color: #{nth($sn, 2)};
+        }
+    }
+}

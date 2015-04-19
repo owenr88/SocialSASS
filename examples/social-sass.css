@@ -1797,15 +1797,15 @@ i.fa.default {
   font-size: 80px;
   width: 80px;
   height: 80px;
-  -webkit-transition: color 0.2s ease-in-out 0;
-  -moz-transition: color 0.2s ease-in-out 0;
-  -ms-transition: color 0.2s ease-in-out 0;
-  -o-transition: color 0.2s ease-in-out 0;
-  transition: color 0.2s ease-in-out 0; }
-  i.fa.default.fa-blogger {
-    color: #fb8f3d; }
-    i.fa.default.fa-blogger:hover {
-      color: #fa720b; }
+  -webkit-transition: color 0.2s ease-in-out 0s;
+  -moz-transition: color 0.2s ease-in-out 0s;
+  -ms-transition: color 0.2s ease-in-out 0s;
+  -o-transition: color 0.2s ease-in-out 0s;
+  transition: color 0.2s ease-in-out 0s; }
+  i.fa.default.fa-digg {
+    color: #000000; }
+    i.fa.default.fa-digg:hover {
+      color: black; }
   i.fa.default.fa-dribbble {
     color: #ea4c89; }
     i.fa.default.fa-dribbble:hover {
@@ -1818,10 +1818,6 @@ i.fa.default {
     color: #ff0084; }
     i.fa.default.fa-flickr:hover {
       color: #cc006a; }
-  i.fa.default.fa-forrst {
-    color: #5B9A68; }
-    i.fa.default.fa-forrst:hover {
-      color: #487a52; }
   i.fa.default.fa-foursquare {
     color: #0072b1; }
     i.fa.default.fa-foursquare:hover {
@@ -1842,18 +1838,30 @@ i.fa.default {
     color: #cb2027; }
     i.fa.default.fa-pinterest:hover {
       color: #9f191f; }
-  i.fa.default.fa-quora {
-    color: #a82400; }
-    i.fa.default.fa-quora:hover {
-      color: #751900; }
+  i.fa.default.fa-reddit {
+    color: #5f99cf; }
+    i.fa.default.fa-reddit:hover {
+      color: #3a80c1; }
+  i.fa.default.fa-skype {
+    color: #00aff0; }
+    i.fa.default.fa-skype:hover {
+      color: #008abd; }
   i.fa.default.fa-soundcloud {
     color: #ff3a00; }
     i.fa.default.fa-soundcloud:hover {
       color: #cc2e00; }
+  i.fa.default.fa-stumbleupon {
+    color: #eb4924; }
+    i.fa.default.fa-stumbleupon:hover {
+      color: #ca3412; }
   i.fa.default.fa-tumblr {
     color: #32506d; }
     i.fa.default.fa-tumblr:hover {
       color: #22364a; }
+  i.fa.default.fa-twitch {
+    color: #6441a5; }
+    i.fa.default.fa-twitch:hover {
+      color: #4e3380; }
   i.fa.default.fa-twitter {
     color: #00aced; }
     i.fa.default.fa-twitter:hover {
@@ -1870,6 +1878,18 @@ i.fa.default {
     color: #45668e; }
     i.fa.default.fa-vk:hover {
       color: #344d6c; }
+  i.fa.default.fa-wechat {
+    color: #93d034; }
+    i.fa.default.fa-wechat:hover {
+      color: #77aa27; }
+  i.fa.default.fa-weibo {
+    color: #E71D34; }
+    i.fa.default.fa-weibo:hover {
+      color: #bd1427; }
+  i.fa.default.fa-whatsapp {
+    color: #4dc247; }
+    i.fa.default.fa-whatsapp:hover {
+      color: #3ba135; }
   i.fa.default.fa-wordpress {
     color: #21759b; }
     i.fa.default.fa-wordpress:hover {
@@ -1878,10 +1898,81 @@ i.fa.default {
     color: #7B0099; }
     i.fa.default.fa-yahoo:hover {
       color: #520066; }
+  i.fa.default.fa-yelp {
+    color: #af0606; }
+    i.fa.default.fa-yelp:hover {
+      color: #7e0404; }
   i.fa.default.fa-youtube {
     color: #bb0000; }
     i.fa.default.fa-youtube:hover {
       color: #880000; }
+
+i.fa.default-hover {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  color: #000000;
+  font-size: 80px;
+  width: 80px;
+  height: 80px;
+  -webkit-transition: color 0.2s ease-in-out 0s;
+  -moz-transition: color 0.2s ease-in-out 0s;
+  -ms-transition: color 0.2s ease-in-out 0s;
+  -o-transition: color 0.2s ease-in-out 0s;
+  transition: color 0.2s ease-in-out 0s; }
+  i.fa.default-hover.fa-digg:hover {
+    color: #000000; }
+  i.fa.default-hover.fa-dribbble:hover {
+    color: #ea4c89; }
+  i.fa.default-hover.fa-facebook:hover {
+    color: #3b5998; }
+  i.fa.default-hover.fa-flickr:hover {
+    color: #ff0084; }
+  i.fa.default-hover.fa-foursquare:hover {
+    color: #0072b1; }
+  i.fa.default-hover.fa-google-plus:hover {
+    color: #dd4b39; }
+  i.fa.default-hover.fa-instagram:hover {
+    color: #517fa4; }
+  i.fa.default-hover.fa-linkedin:hover {
+    color: #007bb6; }
+  i.fa.default-hover.fa-pinterest:hover {
+    color: #cb2027; }
+  i.fa.default-hover.fa-reddit:hover {
+    color: #5f99cf; }
+  i.fa.default-hover.fa-skype:hover {
+    color: #00aff0; }
+  i.fa.default-hover.fa-soundcloud:hover {
+    color: #ff3a00; }
+  i.fa.default-hover.fa-stumbleupon:hover {
+    color: #eb4924; }
+  i.fa.default-hover.fa-tumblr:hover {
+    color: #32506d; }
+  i.fa.default-hover.fa-twitch:hover {
+    color: #6441a5; }
+  i.fa.default-hover.fa-twitter:hover {
+    color: #00aced; }
+  i.fa.default-hover.fa-vimeo-square:hover {
+    color: #aad450; }
+  i.fa.default-hover.fa-vine:hover {
+    color: #00bf8f; }
+  i.fa.default-hover.fa-vk:hover {
+    color: #45668e; }
+  i.fa.default-hover.fa-wechat:hover {
+    color: #93d034; }
+  i.fa.default-hover.fa-weibo:hover {
+    color: #E71D34; }
+  i.fa.default-hover.fa-whatsapp:hover {
+    color: #4dc247; }
+  i.fa.default-hover.fa-wordpress:hover {
+    color: #21759b; }
+  i.fa.default-hover.fa-yahoo:hover {
+    color: #7B0099; }
+  i.fa.default-hover.fa-yelp:hover {
+    color: #af0606; }
+  i.fa.default-hover.fa-youtube:hover {
+    color: #bb0000; }
 
 i.fa.default-spin {
   text-align: center;
@@ -1891,11 +1982,11 @@ i.fa.default-spin {
   font-size: 80px;
   width: 80px;
   height: 80px;
-  -webkit-transition: color 0.2s ease-in-out 0, transform 0.5s;
-  -moz-transition: color 0.2s ease-in-out 0, transform 0.5s;
-  -ms-transition: color 0.2s ease-in-out 0, transform 0.5s;
-  -o-transition: color 0.2s ease-in-out 0, transform 0.5s;
-  transition: color 0.2s ease-in-out 0, transform 0.5s; }
+  -webkit-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  -moz-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  -ms-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  -o-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  transition: color 0.2s ease-in-out 0s, transform 0.5s; }
   i.fa.default-spin:hover {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -1905,10 +1996,10 @@ i.fa.default-spin {
     filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360));
     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360))";
     zoom: 1; }
-  i.fa.default-spin.fa-blogger {
-    color: #fb8f3d; }
-    i.fa.default-spin.fa-blogger:hover {
-      color: #fa720b; }
+  i.fa.default-spin.fa-digg {
+    color: #000000; }
+    i.fa.default-spin.fa-digg:hover {
+      color: black; }
   i.fa.default-spin.fa-dribbble {
     color: #ea4c89; }
     i.fa.default-spin.fa-dribbble:hover {
@@ -1921,10 +2012,6 @@ i.fa.default-spin {
     color: #ff0084; }
     i.fa.default-spin.fa-flickr:hover {
       color: #cc006a; }
-  i.fa.default-spin.fa-forrst {
-    color: #5B9A68; }
-    i.fa.default-spin.fa-forrst:hover {
-      color: #487a52; }
   i.fa.default-spin.fa-foursquare {
     color: #0072b1; }
     i.fa.default-spin.fa-foursquare:hover {
@@ -1945,18 +2032,30 @@ i.fa.default-spin {
     color: #cb2027; }
     i.fa.default-spin.fa-pinterest:hover {
       color: #9f191f; }
-  i.fa.default-spin.fa-quora {
-    color: #a82400; }
-    i.fa.default-spin.fa-quora:hover {
-      color: #751900; }
+  i.fa.default-spin.fa-reddit {
+    color: #5f99cf; }
+    i.fa.default-spin.fa-reddit:hover {
+      color: #3a80c1; }
+  i.fa.default-spin.fa-skype {
+    color: #00aff0; }
+    i.fa.default-spin.fa-skype:hover {
+      color: #008abd; }
   i.fa.default-spin.fa-soundcloud {
     color: #ff3a00; }
     i.fa.default-spin.fa-soundcloud:hover {
       color: #cc2e00; }
+  i.fa.default-spin.fa-stumbleupon {
+    color: #eb4924; }
+    i.fa.default-spin.fa-stumbleupon:hover {
+      color: #ca3412; }
   i.fa.default-spin.fa-tumblr {
     color: #32506d; }
     i.fa.default-spin.fa-tumblr:hover {
       color: #22364a; }
+  i.fa.default-spin.fa-twitch {
+    color: #6441a5; }
+    i.fa.default-spin.fa-twitch:hover {
+      color: #4e3380; }
   i.fa.default-spin.fa-twitter {
     color: #00aced; }
     i.fa.default-spin.fa-twitter:hover {
@@ -1973,6 +2072,18 @@ i.fa.default-spin {
     color: #45668e; }
     i.fa.default-spin.fa-vk:hover {
       color: #344d6c; }
+  i.fa.default-spin.fa-wechat {
+    color: #93d034; }
+    i.fa.default-spin.fa-wechat:hover {
+      color: #77aa27; }
+  i.fa.default-spin.fa-weibo {
+    color: #E71D34; }
+    i.fa.default-spin.fa-weibo:hover {
+      color: #bd1427; }
+  i.fa.default-spin.fa-whatsapp {
+    color: #4dc247; }
+    i.fa.default-spin.fa-whatsapp:hover {
+      color: #3ba135; }
   i.fa.default-spin.fa-wordpress {
     color: #21759b; }
     i.fa.default-spin.fa-wordpress:hover {
@@ -1981,9 +2092,140 @@ i.fa.default-spin {
     color: #7B0099; }
     i.fa.default-spin.fa-yahoo:hover {
       color: #520066; }
+  i.fa.default-spin.fa-yelp {
+    color: #af0606; }
+    i.fa.default-spin.fa-yelp:hover {
+      color: #7e0404; }
   i.fa.default-spin.fa-youtube {
     color: #bb0000; }
     i.fa.default-spin.fa-youtube:hover {
+      color: #880000; }
+
+i.fa.default-spin-hover {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  font-size: 80px;
+  width: 80px;
+  height: 80px;
+  -webkit-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  -moz-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  -ms-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  -o-transition: color 0.2s ease-in-out 0s, transform 0.5s;
+  transition: color 0.2s ease-in-out 0s, transform 0.5s; }
+  i.fa.default-spin-hover:hover {
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360));
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360))";
+    zoom: 1; }
+  i.fa.default-spin-hover.fa-digg {
+    color: #000000; }
+    i.fa.default-spin-hover.fa-digg:hover {
+      color: black; }
+  i.fa.default-spin-hover.fa-dribbble {
+    color: #ea4c89; }
+    i.fa.default-spin-hover.fa-dribbble:hover {
+      color: #e51e6b; }
+  i.fa.default-spin-hover.fa-facebook {
+    color: #3b5998; }
+    i.fa.default-spin-hover.fa-facebook:hover {
+      color: #2d4373; }
+  i.fa.default-spin-hover.fa-flickr {
+    color: #ff0084; }
+    i.fa.default-spin-hover.fa-flickr:hover {
+      color: #cc006a; }
+  i.fa.default-spin-hover.fa-foursquare {
+    color: #0072b1; }
+    i.fa.default-spin-hover.fa-foursquare:hover {
+      color: #00517e; }
+  i.fa.default-spin-hover.fa-google-plus {
+    color: #dd4b39; }
+    i.fa.default-spin-hover.fa-google-plus:hover {
+      color: #c23321; }
+  i.fa.default-spin-hover.fa-instagram {
+    color: #517fa4; }
+    i.fa.default-spin-hover.fa-instagram:hover {
+      color: #406582; }
+  i.fa.default-spin-hover.fa-linkedin {
+    color: #007bb6; }
+    i.fa.default-spin-hover.fa-linkedin:hover {
+      color: #005983; }
+  i.fa.default-spin-hover.fa-pinterest {
+    color: #cb2027; }
+    i.fa.default-spin-hover.fa-pinterest:hover {
+      color: #9f191f; }
+  i.fa.default-spin-hover.fa-reddit {
+    color: #5f99cf; }
+    i.fa.default-spin-hover.fa-reddit:hover {
+      color: #3a80c1; }
+  i.fa.default-spin-hover.fa-skype {
+    color: #00aff0; }
+    i.fa.default-spin-hover.fa-skype:hover {
+      color: #008abd; }
+  i.fa.default-spin-hover.fa-soundcloud {
+    color: #ff3a00; }
+    i.fa.default-spin-hover.fa-soundcloud:hover {
+      color: #cc2e00; }
+  i.fa.default-spin-hover.fa-stumbleupon {
+    color: #eb4924; }
+    i.fa.default-spin-hover.fa-stumbleupon:hover {
+      color: #ca3412; }
+  i.fa.default-spin-hover.fa-tumblr {
+    color: #32506d; }
+    i.fa.default-spin-hover.fa-tumblr:hover {
+      color: #22364a; }
+  i.fa.default-spin-hover.fa-twitch {
+    color: #6441a5; }
+    i.fa.default-spin-hover.fa-twitch:hover {
+      color: #4e3380; }
+  i.fa.default-spin-hover.fa-twitter {
+    color: #00aced; }
+    i.fa.default-spin-hover.fa-twitter:hover {
+      color: #0087ba; }
+  i.fa.default-spin-hover.fa-vimeo-square {
+    color: #aad450; }
+    i.fa.default-spin-hover.fa-vimeo-square:hover {
+      color: #93c130; }
+  i.fa.default-spin-hover.fa-vine {
+    color: #00bf8f; }
+    i.fa.default-spin-hover.fa-vine:hover {
+      color: #008c69; }
+  i.fa.default-spin-hover.fa-vk {
+    color: #45668e; }
+    i.fa.default-spin-hover.fa-vk:hover {
+      color: #344d6c; }
+  i.fa.default-spin-hover.fa-wechat {
+    color: #93d034; }
+    i.fa.default-spin-hover.fa-wechat:hover {
+      color: #77aa27; }
+  i.fa.default-spin-hover.fa-weibo {
+    color: #E71D34; }
+    i.fa.default-spin-hover.fa-weibo:hover {
+      color: #bd1427; }
+  i.fa.default-spin-hover.fa-whatsapp {
+    color: #4dc247; }
+    i.fa.default-spin-hover.fa-whatsapp:hover {
+      color: #3ba135; }
+  i.fa.default-spin-hover.fa-wordpress {
+    color: #21759b; }
+    i.fa.default-spin-hover.fa-wordpress:hover {
+      color: #185571; }
+  i.fa.default-spin-hover.fa-yahoo {
+    color: #7B0099; }
+    i.fa.default-spin-hover.fa-yahoo:hover {
+      color: #520066; }
+  i.fa.default-spin-hover.fa-yelp {
+    color: #af0606; }
+    i.fa.default-spin-hover.fa-yelp:hover {
+      color: #7e0404; }
+  i.fa.default-spin-hover.fa-youtube {
+    color: #bb0000; }
+    i.fa.default-spin-hover.fa-youtube:hover {
       color: #880000; }
 
 i.fa.rounded {
@@ -1998,16 +2240,16 @@ i.fa.rounded {
   -moz-border-radius: 50%;
   font-size: 48px;
   padding: 16px;
-  -webkit-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  -moz-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  -ms-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  -o-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  transition: background-color 0.2s ease-in-out 0, color 0.2s; }
-  i.fa.rounded.fa-blogger {
-    background-color: #fb8f3d;
-    color: #000000; }
-    i.fa.rounded.fa-blogger:hover {
-      background-color: #fa720b; }
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s; }
+  i.fa.rounded.fa-digg {
+    background-color: #000000;
+    color: #FFFFFF; }
+    i.fa.rounded.fa-digg:hover {
+      background-color: black; }
   i.fa.rounded.fa-dribbble {
     background-color: #ea4c89;
     color: #000000; }
@@ -2023,11 +2265,6 @@ i.fa.rounded {
     color: #FFFFFF; }
     i.fa.rounded.fa-flickr:hover {
       background-color: #cc006a; }
-  i.fa.rounded.fa-forrst {
-    background-color: #5B9A68;
-    color: #FFFFFF; }
-    i.fa.rounded.fa-forrst:hover {
-      background-color: #487a52; }
   i.fa.rounded.fa-foursquare {
     background-color: #0072b1;
     color: #FFFFFF; }
@@ -2053,21 +2290,36 @@ i.fa.rounded {
     color: #FFFFFF; }
     i.fa.rounded.fa-pinterest:hover {
       background-color: #9f191f; }
-  i.fa.rounded.fa-quora {
-    background-color: #a82400;
+  i.fa.rounded.fa-reddit {
+    background-color: #5f99cf;
+    color: #000000; }
+    i.fa.rounded.fa-reddit:hover {
+      background-color: #3a80c1; }
+  i.fa.rounded.fa-skype {
+    background-color: #00aff0;
     color: #FFFFFF; }
-    i.fa.rounded.fa-quora:hover {
-      background-color: #751900; }
+    i.fa.rounded.fa-skype:hover {
+      background-color: #008abd; }
   i.fa.rounded.fa-soundcloud {
     background-color: #ff3a00;
     color: #FFFFFF; }
     i.fa.rounded.fa-soundcloud:hover {
       background-color: #cc2e00; }
+  i.fa.rounded.fa-stumbleupon {
+    background-color: #eb4924;
+    color: #000000; }
+    i.fa.rounded.fa-stumbleupon:hover {
+      background-color: #ca3412; }
   i.fa.rounded.fa-tumblr {
     background-color: #32506d;
     color: #FFFFFF; }
     i.fa.rounded.fa-tumblr:hover {
       background-color: #22364a; }
+  i.fa.rounded.fa-twitch {
+    background-color: #6441a5;
+    color: #FFFFFF; }
+    i.fa.rounded.fa-twitch:hover {
+      background-color: #4e3380; }
   i.fa.rounded.fa-twitter {
     background-color: #00aced;
     color: #FFFFFF; }
@@ -2088,6 +2340,21 @@ i.fa.rounded {
     color: #FFFFFF; }
     i.fa.rounded.fa-vk:hover {
       background-color: #344d6c; }
+  i.fa.rounded.fa-wechat {
+    background-color: #93d034;
+    color: #000000; }
+    i.fa.rounded.fa-wechat:hover {
+      background-color: #77aa27; }
+  i.fa.rounded.fa-weibo {
+    background-color: #E71D34;
+    color: #000000; }
+    i.fa.rounded.fa-weibo:hover {
+      background-color: #bd1427; }
+  i.fa.rounded.fa-whatsapp {
+    background-color: #4dc247;
+    color: #000000; }
+    i.fa.rounded.fa-whatsapp:hover {
+      background-color: #3ba135; }
   i.fa.rounded.fa-wordpress {
     background-color: #21759b;
     color: #FFFFFF; }
@@ -2098,11 +2365,114 @@ i.fa.rounded {
     color: #FFFFFF; }
     i.fa.rounded.fa-yahoo:hover {
       background-color: #520066; }
+  i.fa.rounded.fa-yelp {
+    background-color: #af0606;
+    color: #FFFFFF; }
+    i.fa.rounded.fa-yelp:hover {
+      background-color: #7e0404; }
   i.fa.rounded.fa-youtube {
     background-color: #bb0000;
     color: #FFFFFF; }
     i.fa.rounded.fa-youtube:hover {
       background-color: #880000; }
+
+i.fa.rounded-hover {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  background-color: #000000;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  font-size: 48px;
+  padding: 16px;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  color: #FFFFFF; }
+  i.fa.rounded-hover.fa-digg:hover {
+    background-color: #000000;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-dribbble:hover {
+    background-color: #ea4c89;
+    color: #000000; }
+  i.fa.rounded-hover.fa-facebook:hover {
+    background-color: #3b5998;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-flickr:hover {
+    background-color: #ff0084;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-foursquare:hover {
+    background-color: #0072b1;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-google-plus:hover {
+    background-color: #dd4b39;
+    color: #000000; }
+  i.fa.rounded-hover.fa-instagram:hover {
+    background-color: #517fa4;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-linkedin:hover {
+    background-color: #007bb6;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-pinterest:hover {
+    background-color: #cb2027;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-reddit:hover {
+    background-color: #5f99cf;
+    color: #000000; }
+  i.fa.rounded-hover.fa-skype:hover {
+    background-color: #00aff0;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-soundcloud:hover {
+    background-color: #ff3a00;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-stumbleupon:hover {
+    background-color: #eb4924;
+    color: #000000; }
+  i.fa.rounded-hover.fa-tumblr:hover {
+    background-color: #32506d;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-twitch:hover {
+    background-color: #6441a5;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-twitter:hover {
+    background-color: #00aced;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-vimeo-square:hover {
+    background-color: #aad450;
+    color: #000000; }
+  i.fa.rounded-hover.fa-vine:hover {
+    background-color: #00bf8f;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-vk:hover {
+    background-color: #45668e;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-wechat:hover {
+    background-color: #93d034;
+    color: #000000; }
+  i.fa.rounded-hover.fa-weibo:hover {
+    background-color: #E71D34;
+    color: #000000; }
+  i.fa.rounded-hover.fa-whatsapp:hover {
+    background-color: #4dc247;
+    color: #000000; }
+  i.fa.rounded-hover.fa-wordpress:hover {
+    background-color: #21759b;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-yahoo:hover {
+    background-color: #7B0099;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-yelp:hover {
+    background-color: #af0606;
+    color: #FFFFFF; }
+  i.fa.rounded-hover.fa-youtube:hover {
+    background-color: #bb0000;
+    color: #FFFFFF; }
 
 i.fa.rounded-spin {
   text-align: center;
@@ -2116,11 +2486,11 @@ i.fa.rounded-spin {
   -moz-border-radius: 50%;
   font-size: 48px;
   padding: 16px;
-  -webkit-transition: background-color 0.2s ease-in-out 0, color 0.2s, transform 0.5s;
-  -moz-transition: background-color 0.2s ease-in-out 0, color 0.2s, transform 0.5s;
-  -ms-transition: background-color 0.2s ease-in-out 0, color 0.2s, transform 0.5s;
-  -o-transition: background-color 0.2s ease-in-out 0, color 0.2s, transform 0.5s;
-  transition: background-color 0.2s ease-in-out 0, color 0.2s, transform 0.5s; }
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s, transform 0.5s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s, transform 0.5s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s, transform 0.5s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s, transform 0.5s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s, transform 0.5s; }
   i.fa.rounded-spin:hover {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -2130,11 +2500,11 @@ i.fa.rounded-spin {
     filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360));
     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360))";
     zoom: 1; }
-  i.fa.rounded-spin.fa-blogger {
-    background-color: #fb8f3d;
-    color: #000000; }
-    i.fa.rounded-spin.fa-blogger:hover {
-      background-color: #fa720b; }
+  i.fa.rounded-spin.fa-digg {
+    background-color: #000000;
+    color: #FFFFFF; }
+    i.fa.rounded-spin.fa-digg:hover {
+      background-color: black; }
   i.fa.rounded-spin.fa-dribbble {
     background-color: #ea4c89;
     color: #000000; }
@@ -2150,11 +2520,6 @@ i.fa.rounded-spin {
     color: #FFFFFF; }
     i.fa.rounded-spin.fa-flickr:hover {
       background-color: #cc006a; }
-  i.fa.rounded-spin.fa-forrst {
-    background-color: #5B9A68;
-    color: #FFFFFF; }
-    i.fa.rounded-spin.fa-forrst:hover {
-      background-color: #487a52; }
   i.fa.rounded-spin.fa-foursquare {
     background-color: #0072b1;
     color: #FFFFFF; }
@@ -2180,21 +2545,36 @@ i.fa.rounded-spin {
     color: #FFFFFF; }
     i.fa.rounded-spin.fa-pinterest:hover {
       background-color: #9f191f; }
-  i.fa.rounded-spin.fa-quora {
-    background-color: #a82400;
+  i.fa.rounded-spin.fa-reddit {
+    background-color: #5f99cf;
+    color: #000000; }
+    i.fa.rounded-spin.fa-reddit:hover {
+      background-color: #3a80c1; }
+  i.fa.rounded-spin.fa-skype {
+    background-color: #00aff0;
     color: #FFFFFF; }
-    i.fa.rounded-spin.fa-quora:hover {
-      background-color: #751900; }
+    i.fa.rounded-spin.fa-skype:hover {
+      background-color: #008abd; }
   i.fa.rounded-spin.fa-soundcloud {
     background-color: #ff3a00;
     color: #FFFFFF; }
     i.fa.rounded-spin.fa-soundcloud:hover {
       background-color: #cc2e00; }
+  i.fa.rounded-spin.fa-stumbleupon {
+    background-color: #eb4924;
+    color: #000000; }
+    i.fa.rounded-spin.fa-stumbleupon:hover {
+      background-color: #ca3412; }
   i.fa.rounded-spin.fa-tumblr {
     background-color: #32506d;
     color: #FFFFFF; }
     i.fa.rounded-spin.fa-tumblr:hover {
       background-color: #22364a; }
+  i.fa.rounded-spin.fa-twitch {
+    background-color: #6441a5;
+    color: #FFFFFF; }
+    i.fa.rounded-spin.fa-twitch:hover {
+      background-color: #4e3380; }
   i.fa.rounded-spin.fa-twitter {
     background-color: #00aced;
     color: #FFFFFF; }
@@ -2215,6 +2595,21 @@ i.fa.rounded-spin {
     color: #FFFFFF; }
     i.fa.rounded-spin.fa-vk:hover {
       background-color: #344d6c; }
+  i.fa.rounded-spin.fa-wechat {
+    background-color: #93d034;
+    color: #000000; }
+    i.fa.rounded-spin.fa-wechat:hover {
+      background-color: #77aa27; }
+  i.fa.rounded-spin.fa-weibo {
+    background-color: #E71D34;
+    color: #000000; }
+    i.fa.rounded-spin.fa-weibo:hover {
+      background-color: #bd1427; }
+  i.fa.rounded-spin.fa-whatsapp {
+    background-color: #4dc247;
+    color: #000000; }
+    i.fa.rounded-spin.fa-whatsapp:hover {
+      background-color: #3ba135; }
   i.fa.rounded-spin.fa-wordpress {
     background-color: #21759b;
     color: #FFFFFF; }
@@ -2225,13 +2620,18 @@ i.fa.rounded-spin {
     color: #FFFFFF; }
     i.fa.rounded-spin.fa-yahoo:hover {
       background-color: #520066; }
+  i.fa.rounded-spin.fa-yelp {
+    background-color: #af0606;
+    color: #FFFFFF; }
+    i.fa.rounded-spin.fa-yelp:hover {
+      background-color: #7e0404; }
   i.fa.rounded-spin.fa-youtube {
     background-color: #bb0000;
     color: #FFFFFF; }
     i.fa.rounded-spin.fa-youtube:hover {
       background-color: #880000; }
 
-i.fa.rounded-hover {
+i.fa.rounded-spin-hover {
   text-align: center;
   display: block;
   float: left;
@@ -2244,93 +2644,13 @@ i.fa.rounded-hover {
   -moz-border-radius: 50%;
   font-size: 48px;
   padding: 16px;
-  -webkit-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  -moz-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  -ms-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  -o-transition: background-color 0.2s ease-in-out 0, color 0.2s;
-  transition: background-color 0.2s ease-in-out 0, color 0.2s;
+  -webkit-transition: background-color 0.5s ease-in-out 0s, color 0.2s, transform 0.5s;
+  -moz-transition: background-color 0.5s ease-in-out 0s, color 0.2s, transform 0.5s;
+  -ms-transition: background-color 0.5s ease-in-out 0s, color 0.2s, transform 0.5s;
+  -o-transition: background-color 0.5s ease-in-out 0s, color 0.2s, transform 0.5s;
+  transition: background-color 0.5s ease-in-out 0s, color 0.2s, transform 0.5s;
   color: #FFFFFF; }
-  i.fa.rounded-hover.fa-blogger:hover {
-    background-color: #fb8f3d;
-    color: #000000; }
-  i.fa.rounded-hover.fa-dribbble:hover {
-    background-color: #ea4c89;
-    color: #000000; }
-  i.fa.rounded-hover.fa-facebook:hover {
-    background-color: #3b5998;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-flickr:hover {
-    background-color: #ff0084;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-forrst:hover {
-    background-color: #5B9A68;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-foursquare:hover {
-    background-color: #0072b1;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-google-plus:hover {
-    background-color: #dd4b39;
-    color: #000000; }
-  i.fa.rounded-hover.fa-instagram:hover {
-    background-color: #517fa4;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-linkedin:hover {
-    background-color: #007bb6;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-pinterest:hover {
-    background-color: #cb2027;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-quora:hover {
-    background-color: #a82400;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-soundcloud:hover {
-    background-color: #ff3a00;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-tumblr:hover {
-    background-color: #32506d;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-twitter:hover {
-    background-color: #00aced;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-vimeo-square:hover {
-    background-color: #aad450;
-    color: #000000; }
-  i.fa.rounded-hover.fa-vine:hover {
-    background-color: #00bf8f;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-vk:hover {
-    background-color: #45668e;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-wordpress:hover {
-    background-color: #21759b;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-yahoo:hover {
-    background-color: #7B0099;
-    color: #FFFFFF; }
-  i.fa.rounded-hover.fa-youtube:hover {
-    background-color: #bb0000;
-    color: #FFFFFF; }
-
-i.fa.rounded-hover-spin {
-  text-align: center;
-  display: block;
-  float: left;
-  margin-right: 15px;
-  background-color: #000000;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  font-size: 48px;
-  padding: 16px;
-  -webkit-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
-  -moz-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
-  -ms-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
-  -o-transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
-  transition: background-color 0.5s ease-in-out 0, color 0.2s, transform 0.5s;
-  color: #FFFFFF; }
-  i.fa.rounded-hover-spin:hover {
+  i.fa.rounded-spin-hover:hover {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -2339,45 +2659,593 @@ i.fa.rounded-hover-spin {
     filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360));
     -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=cos(360), M12=-sin(360), M21=sin(360), M22=cos(360))";
     zoom: 1; }
-  i.fa.rounded-hover-spin.fa-blogger:hover {
-    background-color: #fb8f3d; }
-  i.fa.rounded-hover-spin.fa-dribbble:hover {
+  i.fa.rounded-spin-hover.fa-digg:hover {
+    background-color: #000000; }
+  i.fa.rounded-spin-hover.fa-dribbble:hover {
     background-color: #ea4c89; }
-  i.fa.rounded-hover-spin.fa-facebook:hover {
+  i.fa.rounded-spin-hover.fa-facebook:hover {
     background-color: #3b5998; }
-  i.fa.rounded-hover-spin.fa-flickr:hover {
+  i.fa.rounded-spin-hover.fa-flickr:hover {
     background-color: #ff0084; }
-  i.fa.rounded-hover-spin.fa-forrst:hover {
-    background-color: #5B9A68; }
-  i.fa.rounded-hover-spin.fa-foursquare:hover {
+  i.fa.rounded-spin-hover.fa-foursquare:hover {
     background-color: #0072b1; }
-  i.fa.rounded-hover-spin.fa-google-plus:hover {
+  i.fa.rounded-spin-hover.fa-google-plus:hover {
     background-color: #dd4b39; }
-  i.fa.rounded-hover-spin.fa-instagram:hover {
+  i.fa.rounded-spin-hover.fa-instagram:hover {
     background-color: #517fa4; }
-  i.fa.rounded-hover-spin.fa-linkedin:hover {
+  i.fa.rounded-spin-hover.fa-linkedin:hover {
     background-color: #007bb6; }
-  i.fa.rounded-hover-spin.fa-pinterest:hover {
+  i.fa.rounded-spin-hover.fa-pinterest:hover {
     background-color: #cb2027; }
-  i.fa.rounded-hover-spin.fa-quora:hover {
-    background-color: #a82400; }
-  i.fa.rounded-hover-spin.fa-soundcloud:hover {
+  i.fa.rounded-spin-hover.fa-reddit:hover {
+    background-color: #5f99cf; }
+  i.fa.rounded-spin-hover.fa-skype:hover {
+    background-color: #00aff0; }
+  i.fa.rounded-spin-hover.fa-soundcloud:hover {
     background-color: #ff3a00; }
-  i.fa.rounded-hover-spin.fa-tumblr:hover {
+  i.fa.rounded-spin-hover.fa-stumbleupon:hover {
+    background-color: #eb4924; }
+  i.fa.rounded-spin-hover.fa-tumblr:hover {
     background-color: #32506d; }
-  i.fa.rounded-hover-spin.fa-twitter:hover {
+  i.fa.rounded-spin-hover.fa-twitch:hover {
+    background-color: #6441a5; }
+  i.fa.rounded-spin-hover.fa-twitter:hover {
     background-color: #00aced; }
-  i.fa.rounded-hover-spin.fa-vimeo-square:hover {
+  i.fa.rounded-spin-hover.fa-vimeo-square:hover {
     background-color: #aad450; }
-  i.fa.rounded-hover-spin.fa-vine:hover {
+  i.fa.rounded-spin-hover.fa-vine:hover {
     background-color: #00bf8f; }
-  i.fa.rounded-hover-spin.fa-vk:hover {
+  i.fa.rounded-spin-hover.fa-vk:hover {
     background-color: #45668e; }
-  i.fa.rounded-hover-spin.fa-wordpress:hover {
+  i.fa.rounded-spin-hover.fa-wechat:hover {
+    background-color: #93d034; }
+  i.fa.rounded-spin-hover.fa-weibo:hover {
+    background-color: #E71D34; }
+  i.fa.rounded-spin-hover.fa-whatsapp:hover {
+    background-color: #4dc247; }
+  i.fa.rounded-spin-hover.fa-wordpress:hover {
     background-color: #21759b; }
-  i.fa.rounded-hover-spin.fa-yahoo:hover {
+  i.fa.rounded-spin-hover.fa-yahoo:hover {
     background-color: #7B0099; }
-  i.fa.rounded-hover-spin.fa-youtube:hover {
+  i.fa.rounded-spin-hover.fa-yelp:hover {
+    background-color: #af0606; }
+  i.fa.rounded-spin-hover.fa-youtube:hover {
     background-color: #bb0000; }
+
+i.fa.squared {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+  padding: 16px;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s; }
+  i.fa.squared.fa-digg {
+    background-color: #000000;
+    color: #FFFFFF; }
+    i.fa.squared.fa-digg:hover {
+      background-color: black; }
+  i.fa.squared.fa-dribbble {
+    background-color: #ea4c89;
+    color: #000000; }
+    i.fa.squared.fa-dribbble:hover {
+      background-color: #e51e6b; }
+  i.fa.squared.fa-facebook {
+    background-color: #3b5998;
+    color: #FFFFFF; }
+    i.fa.squared.fa-facebook:hover {
+      background-color: #2d4373; }
+  i.fa.squared.fa-flickr {
+    background-color: #ff0084;
+    color: #FFFFFF; }
+    i.fa.squared.fa-flickr:hover {
+      background-color: #cc006a; }
+  i.fa.squared.fa-foursquare {
+    background-color: #0072b1;
+    color: #FFFFFF; }
+    i.fa.squared.fa-foursquare:hover {
+      background-color: #00517e; }
+  i.fa.squared.fa-google-plus {
+    background-color: #dd4b39;
+    color: #000000; }
+    i.fa.squared.fa-google-plus:hover {
+      background-color: #c23321; }
+  i.fa.squared.fa-instagram {
+    background-color: #517fa4;
+    color: #FFFFFF; }
+    i.fa.squared.fa-instagram:hover {
+      background-color: #406582; }
+  i.fa.squared.fa-linkedin {
+    background-color: #007bb6;
+    color: #FFFFFF; }
+    i.fa.squared.fa-linkedin:hover {
+      background-color: #005983; }
+  i.fa.squared.fa-pinterest {
+    background-color: #cb2027;
+    color: #FFFFFF; }
+    i.fa.squared.fa-pinterest:hover {
+      background-color: #9f191f; }
+  i.fa.squared.fa-reddit {
+    background-color: #5f99cf;
+    color: #000000; }
+    i.fa.squared.fa-reddit:hover {
+      background-color: #3a80c1; }
+  i.fa.squared.fa-skype {
+    background-color: #00aff0;
+    color: #FFFFFF; }
+    i.fa.squared.fa-skype:hover {
+      background-color: #008abd; }
+  i.fa.squared.fa-soundcloud {
+    background-color: #ff3a00;
+    color: #FFFFFF; }
+    i.fa.squared.fa-soundcloud:hover {
+      background-color: #cc2e00; }
+  i.fa.squared.fa-stumbleupon {
+    background-color: #eb4924;
+    color: #000000; }
+    i.fa.squared.fa-stumbleupon:hover {
+      background-color: #ca3412; }
+  i.fa.squared.fa-tumblr {
+    background-color: #32506d;
+    color: #FFFFFF; }
+    i.fa.squared.fa-tumblr:hover {
+      background-color: #22364a; }
+  i.fa.squared.fa-twitch {
+    background-color: #6441a5;
+    color: #FFFFFF; }
+    i.fa.squared.fa-twitch:hover {
+      background-color: #4e3380; }
+  i.fa.squared.fa-twitter {
+    background-color: #00aced;
+    color: #FFFFFF; }
+    i.fa.squared.fa-twitter:hover {
+      background-color: #0087ba; }
+  i.fa.squared.fa-vimeo-square {
+    background-color: #aad450;
+    color: #000000; }
+    i.fa.squared.fa-vimeo-square:hover {
+      background-color: #93c130; }
+  i.fa.squared.fa-vine {
+    background-color: #00bf8f;
+    color: #FFFFFF; }
+    i.fa.squared.fa-vine:hover {
+      background-color: #008c69; }
+  i.fa.squared.fa-vk {
+    background-color: #45668e;
+    color: #FFFFFF; }
+    i.fa.squared.fa-vk:hover {
+      background-color: #344d6c; }
+  i.fa.squared.fa-wechat {
+    background-color: #93d034;
+    color: #000000; }
+    i.fa.squared.fa-wechat:hover {
+      background-color: #77aa27; }
+  i.fa.squared.fa-weibo {
+    background-color: #E71D34;
+    color: #000000; }
+    i.fa.squared.fa-weibo:hover {
+      background-color: #bd1427; }
+  i.fa.squared.fa-whatsapp {
+    background-color: #4dc247;
+    color: #000000; }
+    i.fa.squared.fa-whatsapp:hover {
+      background-color: #3ba135; }
+  i.fa.squared.fa-wordpress {
+    background-color: #21759b;
+    color: #FFFFFF; }
+    i.fa.squared.fa-wordpress:hover {
+      background-color: #185571; }
+  i.fa.squared.fa-yahoo {
+    background-color: #7B0099;
+    color: #FFFFFF; }
+    i.fa.squared.fa-yahoo:hover {
+      background-color: #520066; }
+  i.fa.squared.fa-yelp {
+    background-color: #af0606;
+    color: #FFFFFF; }
+    i.fa.squared.fa-yelp:hover {
+      background-color: #7e0404; }
+  i.fa.squared.fa-youtube {
+    background-color: #bb0000;
+    color: #FFFFFF; }
+    i.fa.squared.fa-youtube:hover {
+      background-color: #880000; }
+
+i.fa.squared-hover {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  background-color: #000000;
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+  padding: 16px;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s;
+  color: #FFFFFF; }
+  i.fa.squared-hover.fa-digg:hover {
+    background-color: #000000;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-dribbble:hover {
+    background-color: #ea4c89;
+    color: #000000; }
+  i.fa.squared-hover.fa-facebook:hover {
+    background-color: #3b5998;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-flickr:hover {
+    background-color: #ff0084;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-foursquare:hover {
+    background-color: #0072b1;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-google-plus:hover {
+    background-color: #dd4b39;
+    color: #000000; }
+  i.fa.squared-hover.fa-instagram:hover {
+    background-color: #517fa4;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-linkedin:hover {
+    background-color: #007bb6;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-pinterest:hover {
+    background-color: #cb2027;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-reddit:hover {
+    background-color: #5f99cf;
+    color: #000000; }
+  i.fa.squared-hover.fa-skype:hover {
+    background-color: #00aff0;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-soundcloud:hover {
+    background-color: #ff3a00;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-stumbleupon:hover {
+    background-color: #eb4924;
+    color: #000000; }
+  i.fa.squared-hover.fa-tumblr:hover {
+    background-color: #32506d;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-twitch:hover {
+    background-color: #6441a5;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-twitter:hover {
+    background-color: #00aced;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-vimeo-square:hover {
+    background-color: #aad450;
+    color: #000000; }
+  i.fa.squared-hover.fa-vine:hover {
+    background-color: #00bf8f;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-vk:hover {
+    background-color: #45668e;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-wechat:hover {
+    background-color: #93d034;
+    color: #000000; }
+  i.fa.squared-hover.fa-weibo:hover {
+    background-color: #E71D34;
+    color: #000000; }
+  i.fa.squared-hover.fa-whatsapp:hover {
+    background-color: #4dc247;
+    color: #000000; }
+  i.fa.squared-hover.fa-wordpress:hover {
+    background-color: #21759b;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-yahoo:hover {
+    background-color: #7B0099;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-yelp:hover {
+    background-color: #af0606;
+    color: #FFFFFF; }
+  i.fa.squared-hover.fa-youtube:hover {
+    background-color: #bb0000;
+    color: #FFFFFF; }
+
+i.fa.squared-shift {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+  padding: 16px;
+  top: 0px;
+  position: relative;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s; }
+  i.fa.squared-shift.fa-digg {
+    background-color: #000000;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-digg:hover {
+      background-color: black;
+      top: 10px; }
+  i.fa.squared-shift.fa-dribbble {
+    background-color: #ea4c89;
+    color: #000000; }
+    i.fa.squared-shift.fa-dribbble:hover {
+      background-color: #e51e6b;
+      top: 10px; }
+  i.fa.squared-shift.fa-facebook {
+    background-color: #3b5998;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-facebook:hover {
+      background-color: #2d4373;
+      top: 10px; }
+  i.fa.squared-shift.fa-flickr {
+    background-color: #ff0084;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-flickr:hover {
+      background-color: #cc006a;
+      top: 10px; }
+  i.fa.squared-shift.fa-foursquare {
+    background-color: #0072b1;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-foursquare:hover {
+      background-color: #00517e;
+      top: 10px; }
+  i.fa.squared-shift.fa-google-plus {
+    background-color: #dd4b39;
+    color: #000000; }
+    i.fa.squared-shift.fa-google-plus:hover {
+      background-color: #c23321;
+      top: 10px; }
+  i.fa.squared-shift.fa-instagram {
+    background-color: #517fa4;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-instagram:hover {
+      background-color: #406582;
+      top: 10px; }
+  i.fa.squared-shift.fa-linkedin {
+    background-color: #007bb6;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-linkedin:hover {
+      background-color: #005983;
+      top: 10px; }
+  i.fa.squared-shift.fa-pinterest {
+    background-color: #cb2027;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-pinterest:hover {
+      background-color: #9f191f;
+      top: 10px; }
+  i.fa.squared-shift.fa-reddit {
+    background-color: #5f99cf;
+    color: #000000; }
+    i.fa.squared-shift.fa-reddit:hover {
+      background-color: #3a80c1;
+      top: 10px; }
+  i.fa.squared-shift.fa-skype {
+    background-color: #00aff0;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-skype:hover {
+      background-color: #008abd;
+      top: 10px; }
+  i.fa.squared-shift.fa-soundcloud {
+    background-color: #ff3a00;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-soundcloud:hover {
+      background-color: #cc2e00;
+      top: 10px; }
+  i.fa.squared-shift.fa-stumbleupon {
+    background-color: #eb4924;
+    color: #000000; }
+    i.fa.squared-shift.fa-stumbleupon:hover {
+      background-color: #ca3412;
+      top: 10px; }
+  i.fa.squared-shift.fa-tumblr {
+    background-color: #32506d;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-tumblr:hover {
+      background-color: #22364a;
+      top: 10px; }
+  i.fa.squared-shift.fa-twitch {
+    background-color: #6441a5;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-twitch:hover {
+      background-color: #4e3380;
+      top: 10px; }
+  i.fa.squared-shift.fa-twitter {
+    background-color: #00aced;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-twitter:hover {
+      background-color: #0087ba;
+      top: 10px; }
+  i.fa.squared-shift.fa-vimeo-square {
+    background-color: #aad450;
+    color: #000000; }
+    i.fa.squared-shift.fa-vimeo-square:hover {
+      background-color: #93c130;
+      top: 10px; }
+  i.fa.squared-shift.fa-vine {
+    background-color: #00bf8f;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-vine:hover {
+      background-color: #008c69;
+      top: 10px; }
+  i.fa.squared-shift.fa-vk {
+    background-color: #45668e;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-vk:hover {
+      background-color: #344d6c;
+      top: 10px; }
+  i.fa.squared-shift.fa-wechat {
+    background-color: #93d034;
+    color: #000000; }
+    i.fa.squared-shift.fa-wechat:hover {
+      background-color: #77aa27;
+      top: 10px; }
+  i.fa.squared-shift.fa-weibo {
+    background-color: #E71D34;
+    color: #000000; }
+    i.fa.squared-shift.fa-weibo:hover {
+      background-color: #bd1427;
+      top: 10px; }
+  i.fa.squared-shift.fa-whatsapp {
+    background-color: #4dc247;
+    color: #000000; }
+    i.fa.squared-shift.fa-whatsapp:hover {
+      background-color: #3ba135;
+      top: 10px; }
+  i.fa.squared-shift.fa-wordpress {
+    background-color: #21759b;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-wordpress:hover {
+      background-color: #185571;
+      top: 10px; }
+  i.fa.squared-shift.fa-yahoo {
+    background-color: #7B0099;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-yahoo:hover {
+      background-color: #520066;
+      top: 10px; }
+  i.fa.squared-shift.fa-yelp {
+    background-color: #af0606;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-yelp:hover {
+      background-color: #7e0404;
+      top: 10px; }
+  i.fa.squared-shift.fa-youtube {
+    background-color: #bb0000;
+    color: #FFFFFF; }
+    i.fa.squared-shift.fa-youtube:hover {
+      background-color: #880000;
+      top: 10px; }
+
+i.fa.squared-shift-hover {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  background-color: #000000;
+  width: 48px;
+  height: 48px;
+  font-size: 48px;
+  padding: 16px;
+  top: 0px;
+  position: relative;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s, top 0.2s;
+  color: #FFFFFF; }
+  i.fa.squared-shift-hover.fa-digg:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-dribbble:hover {
+    background-color: #ea4c89;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-facebook:hover {
+    background-color: #3b5998;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-flickr:hover {
+    background-color: #ff0084;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-foursquare:hover {
+    background-color: #0072b1;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-google-plus:hover {
+    background-color: #dd4b39;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-instagram:hover {
+    background-color: #517fa4;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-linkedin:hover {
+    background-color: #007bb6;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-pinterest:hover {
+    background-color: #cb2027;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-reddit:hover {
+    background-color: #5f99cf;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-skype:hover {
+    background-color: #00aff0;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-soundcloud:hover {
+    background-color: #ff3a00;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-stumbleupon:hover {
+    background-color: #eb4924;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-tumblr:hover {
+    background-color: #32506d;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-twitch:hover {
+    background-color: #6441a5;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-twitter:hover {
+    background-color: #00aced;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-vimeo-square:hover {
+    background-color: #aad450;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-vine:hover {
+    background-color: #00bf8f;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-vk:hover {
+    background-color: #45668e;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-wechat:hover {
+    background-color: #93d034;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-weibo:hover {
+    background-color: #E71D34;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-whatsapp:hover {
+    background-color: #4dc247;
+    color: #000000;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-wordpress:hover {
+    background-color: #21759b;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-yahoo:hover {
+    background-color: #7B0099;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-yelp:hover {
+    background-color: #af0606;
+    color: #FFFFFF;
+    top: 10px; }
+  i.fa.squared-shift-hover.fa-youtube:hover {
+    background-color: #bb0000;
+    color: #FFFFFF;
+    top: 10px; }
 
 /*# sourceMappingURL=social-sass.css.map */

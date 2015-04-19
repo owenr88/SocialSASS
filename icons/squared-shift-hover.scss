@@ -1,15 +1,14 @@
 
-i.fa.rounded-hover {
+i.fa.squared-shift-hover {
     @include getDefaultProps();
     background-color: $base-colour;
     width: $icon-size * 0.6;
     height: $icon-size * 0.6;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     font-size: $icon-size * 0.6;
     padding: $icon-size * 0.2;
-    @include transition(background-color, 0.2s, ease-in-out, 0s, color 0.2s);
+    top: 0px;
+    position: relative;
+    @include transition(background-color, 0.2s, ease-in-out, 0s, color 0.2s, top 0.2s);
     
     @if $text-colour-override == false {
         color: getTextColor($base-colour);
@@ -22,6 +21,7 @@ i.fa.rounded-hover {
             background-color: #{nth($sn, 2)};
             @if $text-colour-override == false {
                 color: getTextColor(nth($sn, 2));
+                top: 10px;
             }
         }
     }

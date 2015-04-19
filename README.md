@@ -7,7 +7,7 @@ The styles also offer a variety of ways to display the icons. See the examples b
 
 Include the social-sass.scss in your project and use the add-on Font Awesome classes as in the examples below.
 
-`@import "SocialSASS/social-sass.scss"`
+`@import "SocialSASS/social-sass"`
 
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) SASS files are also included, but you can delete them if you've already included them in your project. Don't forget to remove the reference in social-sass.scss too!
 
@@ -15,35 +15,22 @@ View the social-networks.scss file for list fo social networks supported.
 
 ##Icon Examples
 
-###Default Icon
-`<i class="fa default fa-twitter"></i>`
+See the examples/index.html for working examples.
 
-Standard icons in the social network's color. The color is slightly darkened on hover.
+Default Icon - `<i class="fa default fa-twitter"></i>`
+Default Icon (background applied on hover) - `<i class="fa default-hover fa-linkedin"></i>`
+Default Icon (spins on hover) - `<i class="fa default-spin fa-wordpress"></i>`
+Default Icon (background applied and spins on hover) - `<i class="fa default-spin-hover fa-pinterest"></i>`
 
-###Default Icon - Spins on hover
-`<i class="fa default-spin fa-flickr"></i>`
+Rounded Icon - `<i class="fa rounded fa-facebook"></i>`
+Rounded Icon (background applied on hover) - `<i class="fa rounded-hover fa-vimeo-square"></i>`
+Rounded Icon (spins on hover) - `<i class="fa rounded-spin fa-youtube"></i>`
+Rounded Icon (background applied and spins on hover) - `<i class="fa rounded-hover-spin fa-instagram"></i>`
 
-Standard icons in the social network's color. The icon spins and the color darkens slightly on hover.
-
-###Rounded Icon with Background Color
-`<i class="fa rounded fa-facebook"></i>`
-
-Round icons with the social network's color in the background.
-
-###Rounded Icon with Background Color - Spins on hover
-`<i class="fa rounded-spin fa-youtube"></i>`
-
-Round icons with the social network's colour in the background which does a little spins on hover.
-
-###Rounded Icon - Background Color on Hover Only
-`<i class="fa rounded-hover fa-vimeo-square"></i>`
-
-Round icons with the social network's color applied to the background when hovered over. The base color can be changed in the social-icons.scss file.
-
-###Rounded Icon - Background Color on hover - Also spins on hover
-`<i class="fa rounded-hover-spin fa-instagram"></i>`
-
-Round icons with the social network's color applied when hovered over, at the same time as spinning. The base color can be changed in the social-icons.scss file.
+Squared Icon - `<i class="fa squared fa-dribbble"></i>`
+Squared Icon (background applied on hover) - `<i class="fa squared-hover fa-soundcloud"></i>`
+Squared Icon (shifts down on hover) - `<i class="fa squared-shift fa-flickr"></i>`
+Squared Icon (background applied and shifts down on hover) - `<i class="fa squared-shift-hover fa-yahoo"></i>`
 
 ##Details
 

@@ -17,7 +17,7 @@
 }
 
 // transition
-@mixin transition($transition-property, $transition-time, $method:ease-in-out, $delay:0, $multiple...) {
+@mixin transition($transition-property, $transition-time, $method:ease-in-out, $delay:0s, $multiple...) {
 	-webkit-transition: $transition-property $transition-time $method $delay, $multiple;
 	-moz-transition: $transition-property $transition-time $method $delay, $multiple;
 	-ms-transition: $transition-property $transition-time $method $delay, $multiple;
