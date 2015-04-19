@@ -15,7 +15,7 @@ View the social-networks.scss file for list fo social networks supported.
 
 ##Icon Examples
 
-**See the examples/index.html for working examples.**
+**See [our example page](socialsass.biglemoncreative.co.uk) or the examples/index.html for working samples.**
 
 Default Icon - `<i class="fa default fa-twitter"></i>`
 
