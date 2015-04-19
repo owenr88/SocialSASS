@@ -7,6 +7,7 @@ i.fa.squared-shift {
     padding: $icon-size * 0.2;
     top: 0px;
     position: relative;
+    z-index: 300;
     @include transition(background-color, 0.2s, ease-in-out, 0s, color 0.2s, top 0.2s);
 
     @if $text-colour-override != false {
