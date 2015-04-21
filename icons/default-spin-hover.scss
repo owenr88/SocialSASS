@@ -4,18 +4,17 @@ i.fa.default-spin-hover {
     font-size: $icon-size;
     width: $icon-size;
 	height: $icon-size;
+    color: $base-colour;
     @include transition(color, 0.2s, ease-in-out, 0s, transform 0.5s);
+    @include rotate(0);
 
     &:hover {
         @include rotate(360);
     }
 
     @each $sn in $social-networks {
-        &.fa-#{nth($sn, 1)} { 
+        &.fa-#{nth($sn, 1)}:hover { 
         	color: #{nth($sn, 2)};
-            &:hover {
-                color: darken(nth($sn,2), 10%);
-            }
         }
     }
 }

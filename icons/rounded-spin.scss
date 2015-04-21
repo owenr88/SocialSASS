@@ -1,14 +1,15 @@
 
 i.fa.rounded-spin {
     @include getDefaultProps();
-    width: $icon-size * 0.6;
-    height: $icon-size * 0.6;
+    width: $icon-size;
+    height: $icon-size;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     font-size: $icon-size * 0.6;
     padding: $icon-size * 0.2;
     @include transition(background-color, 0.2s, ease-in-out, 0s, color 0.2s, transform 0.5s);
+    @include rotate(0);
 
     @if $text-colour-override != false {
         color: $text-colour-override;

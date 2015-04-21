@@ -5,6 +5,7 @@ i.fa.default-spin {
     width: $icon-size;
 	height: $icon-size;
     @include transition(color, 0.2s, ease-in-out, 0s, transform 0.5s);
+    @include rotate(0);
 
     &:hover {
         @include rotate(360);

@@ -21,7 +21,7 @@ Default Icon - `<i class="fa default fa-twitter"></i>`
 
 Default Icon (background applied on hover) - `<i class="fa default-hover fa-linkedin"></i>`
 
-Default Icon (spins on hover) - `<i class="fa default-spin fa-wordpress"></i>`
+Default Icon (spins on hover) - `<i class="fa default-spin fa-instagram"></i>`
 
 Default Icon (background applied and spins on hover) - `<i class="fa default-spin-hover fa-pinterest"></i>`
 
@@ -31,7 +31,7 @@ Rounded Icon (background applied on hover) - `<i class="fa rounded-hover fa-vime
 
 Rounded Icon (spins on hover) - `<i class="fa rounded-spin fa-youtube"></i>`
 
-Rounded Icon (background applied and spins on hover) - `<i class="fa rounded-hover-spin fa-instagram"></i>`
+Rounded Icon (background applied and spins on hover) - `<i class="fa rounded-hover-spin fa-wordpress"></i>`
 
 Squared Icon - `<i class="fa squared fa-dribbble"></i>`
 

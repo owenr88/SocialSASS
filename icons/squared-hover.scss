@@ -2,8 +2,8 @@
 i.fa.squared-hover {
     @include getDefaultProps();
     background-color: $base-colour;
-    width: $icon-size * 0.6;
-    height: $icon-size * 0.6;
+    width: $icon-size;
+    height: $icon-size;
     font-size: $icon-size * 0.6;
     padding: $icon-size * 0.2;
     @include transition(background-color, 0.2s, ease-in-out, 0s, color 0.2s);
