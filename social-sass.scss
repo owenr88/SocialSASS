@@ -2,6 +2,7 @@
 // Variables
 $base-colour: #FFFFFF;				// Base background color
 $text-colour-override: false;		// Over-ride the text color. Leave as false to let it decide the color depending on the background.
+$background-color: #3b3c43;			// Background color to base the bordered icons on. ONLY NEEDED FOR THE BORDERED ICONS
 $icon-size: 100px;					// Total icon size
 $gutter: 15px;						// Margin between icons
 
@@ -45,6 +46,9 @@ $fa-font-path: "vendors/font-awesome/fonts";
 
 // Round icons with the social network's color in the background. Spins on hover
 @import "icons/rounded-spin-hover";
+
+// Bordered icons with the social network's color in the background with various border effects
+@import "icons/bordered";
 
 // Square icons with the social network's colour in the background
 @import "icons/squared.scss";

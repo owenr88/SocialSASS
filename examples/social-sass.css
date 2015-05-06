@@ -1794,6 +1794,7 @@ i.fa.default {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   font-size: 100px;
   width: 100px;
   height: 100px;
@@ -1912,6 +1913,7 @@ i.fa.default-hover {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   color: #FFFFFF;
   font-size: 100px;
   width: 100px;
@@ -1979,6 +1981,7 @@ i.fa.default-spin {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   font-size: 100px;
   width: 100px;
   height: 100px;
@@ -2114,6 +2117,7 @@ i.fa.default-spin-hover {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   font-size: 100px;
   width: 100px;
   height: 100px;
@@ -2198,6 +2202,7 @@ i.fa.rounded {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -2346,6 +2351,7 @@ i.fa.rounded-hover {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   background-color: #FFFFFF;
   width: 100px;
   height: 100px;
@@ -2444,6 +2450,7 @@ i.fa.rounded-spin {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -2609,6 +2616,7 @@ i.fa.rounded-spin-hover {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   background-color: #FFFFFF;
   width: 100px;
   height: 100px;
@@ -2693,11 +2701,248 @@ i.fa.rounded-spin-hover {
   i.fa.rounded-spin-hover.fa-youtube:hover {
     background-color: #bb0000; }
 
+i.fa.bordered {
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  font-size: 50px;
+  padding: 20px;
+  border: 5px solid transparent;
+  -webkit-transition: background-color 0.2s ease-in-out 0s, color, 0.2s, border, 0.2s;
+  -moz-transition: background-color 0.2s ease-in-out 0s, color, 0.2s, border, 0.2s;
+  -ms-transition: background-color 0.2s ease-in-out 0s, color, 0.2s, border, 0.2s;
+  -o-transition: background-color 0.2s ease-in-out 0s, color, 0.2s, border, 0.2s;
+  transition: background-color 0.2s ease-in-out 0s, color, 0.2s, border, 0.2s; }
+  i.fa.bordered.fa-digg {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-color: #000000; }
+    i.fa.bordered.fa-digg:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-dribbble {
+    background-color: #ea4c89;
+    color: #000000;
+    border-color: #ea4c89; }
+    i.fa.bordered.fa-dribbble:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-facebook {
+    background-color: #3b5998;
+    color: #FFFFFF;
+    border-color: #3b5998; }
+    i.fa.bordered.fa-facebook:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-flickr {
+    background-color: #ff0084;
+    color: #FFFFFF;
+    border-color: #ff0084; }
+    i.fa.bordered.fa-flickr:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-foursquare {
+    background-color: #0072b1;
+    color: #FFFFFF;
+    border-color: #0072b1; }
+    i.fa.bordered.fa-foursquare:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-google-plus {
+    background-color: #dd4b39;
+    color: #000000;
+    border-color: #dd4b39; }
+    i.fa.bordered.fa-google-plus:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-instagram {
+    background-color: #517fa4;
+    color: #FFFFFF;
+    border-color: #517fa4; }
+    i.fa.bordered.fa-instagram:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-linkedin {
+    background-color: #007bb6;
+    color: #FFFFFF;
+    border-color: #007bb6; }
+    i.fa.bordered.fa-linkedin:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-pinterest {
+    background-color: #cb2027;
+    color: #FFFFFF;
+    border-color: #cb2027; }
+    i.fa.bordered.fa-pinterest:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-reddit {
+    background-color: #5f99cf;
+    color: #000000;
+    border-color: #5f99cf; }
+    i.fa.bordered.fa-reddit:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-skype {
+    background-color: #00aff0;
+    color: #FFFFFF;
+    border-color: #00aff0; }
+    i.fa.bordered.fa-skype:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-soundcloud {
+    background-color: #ff3a00;
+    color: #FFFFFF;
+    border-color: #ff3a00; }
+    i.fa.bordered.fa-soundcloud:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-stumbleupon {
+    background-color: #eb4924;
+    color: #000000;
+    border-color: #eb4924; }
+    i.fa.bordered.fa-stumbleupon:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-tumblr {
+    background-color: #32506d;
+    color: #FFFFFF;
+    border-color: #32506d; }
+    i.fa.bordered.fa-tumblr:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-twitch {
+    background-color: #6441a5;
+    color: #FFFFFF;
+    border-color: #6441a5; }
+    i.fa.bordered.fa-twitch:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-twitter {
+    background-color: #00aced;
+    color: #FFFFFF;
+    border-color: #00aced; }
+    i.fa.bordered.fa-twitter:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-vimeo-square {
+    background-color: #aad450;
+    color: #000000;
+    border-color: #aad450; }
+    i.fa.bordered.fa-vimeo-square:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-vine {
+    background-color: #00bf8f;
+    color: #FFFFFF;
+    border-color: #00bf8f; }
+    i.fa.bordered.fa-vine:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-vk {
+    background-color: #45668e;
+    color: #FFFFFF;
+    border-color: #45668e; }
+    i.fa.bordered.fa-vk:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-wechat {
+    background-color: #93d034;
+    color: #000000;
+    border-color: #93d034; }
+    i.fa.bordered.fa-wechat:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-weibo {
+    background-color: #E71D34;
+    color: #000000;
+    border-color: #E71D34; }
+    i.fa.bordered.fa-weibo:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-whatsapp {
+    background-color: #4dc247;
+    color: #000000;
+    border-color: #4dc247; }
+    i.fa.bordered.fa-whatsapp:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-wordpress {
+    background-color: #21759b;
+    color: #FFFFFF;
+    border-color: #21759b; }
+    i.fa.bordered.fa-wordpress:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-yahoo {
+    background-color: #7B0099;
+    color: #FFFFFF;
+    border-color: #7B0099; }
+    i.fa.bordered.fa-yahoo:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-yelp {
+    background-color: #af0606;
+    color: #FFFFFF;
+    border-color: #af0606; }
+    i.fa.bordered.fa-yelp:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.fa-youtube {
+    background-color: #bb0000;
+    color: #FFFFFF;
+    border-color: #bb0000; }
+    i.fa.bordered.fa-youtube:hover {
+      color: #FFFFFF;
+      background-color: #3b3c43;
+      border-color: #FFFFFF; }
+  i.fa.bordered.solid {
+    border-style: solid; }
+  i.fa.bordered.dotted {
+    border-style: dotted; }
+  i.fa.bordered.dashed {
+    border-style: dashed; }
+  i.fa.bordered.double {
+    border-style: double; }
+
 i.fa.squared {
   text-align: center;
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   width: 100px;
   height: 100px;
   font-size: 60px;
@@ -2843,6 +3088,7 @@ i.fa.squared-hover {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   background-color: #FFFFFF;
   width: 100px;
   height: 100px;
@@ -2938,6 +3184,7 @@ i.fa.squared-shift {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   width: 100px;
   height: 100px;
   font-size: 60px;
@@ -3138,6 +3385,7 @@ i.fa.squared-shift-hover {
   display: block;
   float: left;
   margin-right: 15px;
+  cursor: pointer;
   background-color: #FFFFFF;
   width: 100px;
   height: 100px;

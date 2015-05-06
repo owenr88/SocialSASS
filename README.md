@@ -25,6 +25,14 @@ Default Icon (spins on hover) - `<i class="fa default-spin fa-instagram"></i>`
 
 Default Icon (background applied and spins on hover) - `<i class="fa default-spin-hover fa-pinterest"></i>`
 
+Bordered Icon (Solid border) - `<i class="fa bordered solid fa-digg"></i>`
+
+Bordered Icon (Dotted border) - `<i class="fa bordered dotted fa-flickr"></i>`
+
+Bordered Icon (Dashed border) - `<i class="fa bordered dashed fa-foursquare"></i>`
+
+Bordered Icon (Double border) - `<i class="fa bordered double fa-whatsapp"></i>`
+
 Rounded Icon - `<i class="fa rounded fa-facebook"></i>`
 
 Rounded Icon (background applied on hover) - `<i class="fa rounded-hover fa-vimeo-square"></i>`

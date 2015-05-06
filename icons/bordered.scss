@@ -1,0 +1,43 @@
+
+i.fa.bordered {
+    @include getDefaultProps();
+    width: $icon-size;
+    height: $icon-size;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    font-size: $icon-size * 0.6 - 10;
+    padding: $icon-size * 0.2;
+    border: 5px solid transparent;
+    @include transition(background-color, 0.2s, ease-in-out, 0s, color, 0.2s, border, 0.2s);
+
+    @if $text-colour-override != false {
+        color: $text-colour-override;
+    }
+
+    @each $sn in $social-networks {
+        &.fa-#{nth($sn, 1)} { 
+            background-color: #{nth($sn, 2)};
+            @if $text-colour-override == false {
+                color: getTextColor(nth($sn, 2));
+            }
+            border-color: #{nth($sn, 2)};
+            &:hover {
+                color: getTextColor($background-color);
+                background-color: $background-color;
+                border-color: getTextColor($background-color);
+            }
+        }
+    }
+
+    $styles: solid dotted dashed double;
+
+    @each $s in $styles {
+
+        &.#{$s} {
+            border-style: #{$s};
+        }
+
+    }
+
+}
